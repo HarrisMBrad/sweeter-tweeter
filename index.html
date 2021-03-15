@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quote Mood Gradients</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="gradient">
+	<h1>Sweeter Tweeter</h1>
+	<input class="color1" type="color" name="color1" value="#00ff00">
+	<input class="color2" type="color" name="color2" value="#ff0000">
+	<h2>Some Tweets To Match Your Mood</h2>
+	<h3>Now add quotes that match that match your mood.</h3>
+	<div class="quote-container" id="quote-container">
+
+		<!-- Quote -->
+		<div class="quote-text">
+			<i class="fas fa-quote-left"></i>
+			<span id="quote"></span>
+			<i class="fas fa-quote-right"></i>
+		</div>
+		<!-- Auther  -->
+		<div class="quote-author">
+			<span id="author"></span>
+		</div>
+		<!-- Buttons -->
+		<div class="button-container">
+			<button class="twitter-button" id="twitter" title="Tweet This!">
+				<i class="fab fa-twitter">Sweet</i>
+			</button>
+			<button id="new-quote">New Quote</button>
+		</div>
+	</div>
+	
+	<!-- Loader -->
+<div class="loader" id="loader"></div>
+
+	<!-- Scripts  -->
+	<script src="quotes.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
